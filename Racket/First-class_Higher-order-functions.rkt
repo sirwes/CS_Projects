@@ -1,4 +1,4 @@
-﻿;;Temps1
+;;Temps1
 (define (check-temps1 temps) (and (not (ormap negative? (map (lambda (num) (- num 5)) temps))) (not (ormap positive? (map (lambda (num) (- num 95)) temps)))))
 
 

@@ -1,4 +1,4 @@
-﻿;;Default parms
+;;Default parms
 (define (default-parms f values) (lambda args (apply f (append args (list-tail values (length args))))))
 
 ;;(define g (default-parms + (list 42 1 10)))
